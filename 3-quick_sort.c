@@ -50,7 +50,7 @@ static int lomuto_partition(int *array, int low, int high, size_t size)
  * @high: End index of the current partition
  * @size: Size of the whole array (for printing)
  */
-static void quick_sort_rec(int *array, int low, int high, size_t size)
+void quick_sort_rec(int *array, int low, int high, size_t size)
 {
     int p;
 
